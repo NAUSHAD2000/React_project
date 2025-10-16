@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Calculator from './components/Calculator'
+import DigitalClock from './components/DigitalClock'
 
 
 
@@ -9,7 +10,9 @@ function App() {
 
   return (
     <>
-    <Calculator/>
+    {/* <Calculator/> */
+    <DigitalClock />
+    }
     
     </>
     
