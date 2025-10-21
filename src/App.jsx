@@ -1,17 +1,29 @@
 import { useState } from 'react'
 import Calculator from './components/Calculator'
 import DigitalClock from './components/DigitalClock'
+import LearnHooks from './components/LearnHooks'
+import ProductTab from './components/ProductTab'
+import Parent from './usecontext/Parent'
+import './App.css'
+
+
+
+
 
 
 
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
     {/* <Calculator/> */
-    <DigitalClock />
+    //<DigitalClock />
+      //<ProductTab/>
+    //<LearnHooks/>
+    <Parent/>
+    
+
     }
     
     </>
