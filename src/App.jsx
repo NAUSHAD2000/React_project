@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import Calculator from './components/Calculator'
 import DigitalClock from './components/DigitalClock'
-import LearnHooks from './components/LearnHooks'
 import ProductTab from './components/ProductTab'
 import Parent from './usecontext/Parent'
 import './App.css'
+import UseRef from './components/UseRef'
+import UseMemo from './components/UseMemo'
+import UseCallback from './components/UseCallback'
 
 
 
@@ -21,7 +23,11 @@ function App() {
     //<DigitalClock />
       //<ProductTab/>
     //<LearnHooks/>
-    <Parent/>
+    //<Parent/>
+    //<UseRef/>
+    //<UseMemo/>
+    <UseCallback/>
+
     
 
     }
